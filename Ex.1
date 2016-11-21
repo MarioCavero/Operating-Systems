@@ -1,0 +1,17 @@
+#! /bin/bash
+# number of parameters
+params =3
+
+echo program $0 started with $# parameters
+
+case &# in
+
+$params)
+	echo Using $0 parameters: [$0] [$1] [$2]
+;;
+*)
+echo ERRIR: Incorrect number of parameters.
+	echo Please use: $0 param1
+
+;;
+esac
